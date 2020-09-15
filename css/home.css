@@ -1,0 +1,92 @@
+section{
+    padding: 110px 0;
+    /* background-color: #10172C; */
+   
+    
+}
+.banner-area .overlay {
+    background: #000;
+    opacity: .7;
+}
+.overlay-bg {
+    background-color: #000;
+    opacity: .9
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.overlays::after{
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: rgb(16 23 44 / 93%);
+    /* background-color: #10172C; */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+section .section-title{
+    margin-bottom: 70px;
+    color: #fff;
+}
+section#who-we-are .section-title h1{
+    /* color: #fff; */
+    text-align: center;
+}
+section .section-title h1{
+    color: #10172B;
+    text-align: center;
+}
+section span{
+    content: "";
+    left: 50%;
+    /* bottom: 25px; */
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background: #23a2c1;
+}
+section .section-sub{
+    font-size: 30px; font-weight: bold; 
+    /* color: #fff; */
+}
+section p {
+    text-align: justify;
+    font-size: 15px;
+    /* color: #fff; */
+}
+section .section-why-us{
+    font-weight: bold;
+}
+section .section-why-us h6{
+    font-size: .9rem;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.nav-pills .nav-link{
+    text-align: center;
+    color: #fff;
+    background-color: #10172c;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+.nav-pills .nav-link.active{
+    color: #fff;
+    background-color:#23A2C1;
+}

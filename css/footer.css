@@ -1,0 +1,23 @@
+.social{
+    padding: 10px;
+}
+.social a{
+    padding: 5px;
+}
+.social a img{
+    height: auto;
+    width: 4%;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #10172C;
+    color: #fff;
+}
+.footer p{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.footer .col{
+    padding: 20px;
+}
