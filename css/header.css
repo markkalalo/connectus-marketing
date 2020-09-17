@@ -100,11 +100,11 @@ header .main-navigation nav{
         font-size: 13px;
     }
 }
-@media (max-width: 991px){
+/* @media (max-width: 991px){
     header .main-navigation .collapse.show{
         width: 300px;
         background: rgb(255, 255, 255);
         position: fixed;
         z-index: 234234;
     }
-}
+} */
