@@ -23,7 +23,8 @@ jQuery(document).ready(function(){
             "<i class='fa fa-caret-left'></i>",
             "<i class='fa fa-caret-right'></i>"
         ],
-        autoplay: true,
+        autoplay: 3000, // time for slides changes
+        smartSpeed: 3000, // duration of change of 1 slide
         items : 1,
         autoplayHoverPause: true,
         responsive: {
