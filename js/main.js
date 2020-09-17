@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-
+    
     var browserWindow = $(window);
 
     browserWindow.on('load', function() {
