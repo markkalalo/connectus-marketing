@@ -100,3 +100,11 @@ header .main-navigation nav{
         font-size: 13px;
     }
 }
+@media (max-width: 320px){
+    .collapse{
+        width: 300px;
+        background: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 234234;
+    }
+}
