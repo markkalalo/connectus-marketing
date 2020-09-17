@@ -32,6 +32,7 @@ header .topbar .topbar-contact{
 header .topbar .topbar-contact .cols{
     margin: 0 25px;
     font-size: 13px;
+    cursor: pointer;
 }
 header .main-navigation nav a .logo{
     width: 80%;
