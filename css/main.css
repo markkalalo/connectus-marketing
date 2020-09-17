@@ -65,12 +65,12 @@ a#scrollUp:hover {
 }
 
 /* end fix */
-.owl-nav > div {
+/* .owl-nav > div {
   margin-top: -26px;
   position: absolute;
   top: 50%;
   color: #cdcbcd;
-}
+} */
 
 .owl-nav i {
   font-size: 52px;
@@ -83,3 +83,4 @@ a#scrollUp:hover {
 .owl-nav .owl-next {
   right: -30px;
 }
+
