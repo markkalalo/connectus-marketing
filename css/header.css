@@ -101,7 +101,7 @@ header .main-navigation nav{
     }
 }
 @media (max-width: 320px){
-    .collapse{
+    .collapse.show{
         width: 300px;
         background: rgb(255, 255, 255);
         position: fixed;
