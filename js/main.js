@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 
     browserWindow.on('load', function() {
         $('.preloader').fadeOut('slow', function() {
-        $(this).remove();
+            $(this).remove();
         });
     });
     
@@ -19,10 +19,7 @@ jQuery(document).ready(function(){
         loop: true,
         margin: 10,
         nav: true,
-        navText: [
-            "<i class='fa fa-caret-left'></i>",
-            "<i class='fa fa-caret-right'></i>"
-        ],
+        navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
         autoplay: 3000, // time for slides changes
         smartSpeed: 3000, // duration of change of 1 slide
         autoplayHoverPause: true,
