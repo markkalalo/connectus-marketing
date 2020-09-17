@@ -26,7 +26,7 @@ a#scrollUp:hover {
     background: #23a2c1;
 }
 .banner-area{
-    background-image: url(../img/bg-home.jpg) center;
+    background: url(../img/bg-home.jpg) center;
     background-size: cover;
 }
 .banner-area .btn {
