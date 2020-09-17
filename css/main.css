@@ -48,38 +48,52 @@ a#scrollUp:hover {
     width: 80%;
 }
 
-
-.main {
-    font-family:Arial;
-    width:500px;
-    display:block;
-    margin:0 auto;
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
   }
-  .main h3 {
-      background: #fff;
-      color: #3498db;
-      font-size: 36px;
-      line-height: 100px;
-      margin: 10px;
-      padding: 2%;
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.38) !important;
+  }
+  span {
+      font-size: 70px;    
       position: relative;
-      text-align: center;
+      top: -5px;
   }
-  .main .action{
-    display:block;
-    margin:100px auto;
-    width:100%;
-    text-align:center;
-  }
-  .main .action a {
-    display:inline-block;
-    padding:5px 10px; 
-    background:#f30;
-    color:#fff;
-    text-decoration:none;
-  }
-  .main .action a:hover{
-    background:#000;
+  .owl-nav button:focus {
+      outline: none;
   }
 
 
