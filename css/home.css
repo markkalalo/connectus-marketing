@@ -1,6 +1,5 @@
 section{
-    padding: 110px 0;
-    /* background-color: #10172C; */
+    padding: 50px;
 }
 .banner-area .overlay {
     background: #000;
@@ -30,7 +29,7 @@ section{
     content: "";
 }
 section .section-title{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     color: #fff;
 }
 section#who-we-are .section-title h1{
@@ -60,6 +59,7 @@ section .section-sub{
 section p {
     text-align: justify;
     font-size: 15px;
+    font-weight: 100;
     /* color: #fff; */
 }
 section .section-why-us{
