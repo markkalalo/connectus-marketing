@@ -70,10 +70,19 @@ a#scrollUp {
 a#scrollUp:hover {
     background: #23a2c1;
 }
-.banner-area{
-    background: url(../img/bg-home.jpg) center;
+.slider-banner-area-1{
+    background: url(../img/slide1.jpg) center;
     background-size: cover;
 }
+.slider-banner-area-2{
+    background: url(../img/slide2.jpg) center;
+    background-size: cover;
+}
+.slider-banner-area-3{
+    background: url(../img/slide3.jpg) center;
+    background-size: cover;
+}
+
 
 .banner-area .btn {
     border: 0;
