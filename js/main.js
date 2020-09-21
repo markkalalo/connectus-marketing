@@ -11,9 +11,12 @@ jQuery(document).ready(function(){
     $("#navbarNav ul li a[href^='#']").on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $(this.hash).offset().top
-        }, 2000, function(){});
+            scrollTop: $(this.hash).offset().top - 80
+        }, 1500, function(){});
     });
+  
+  
+
 
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -22,7 +25,7 @@ jQuery(document).ready(function(){
         navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
         autoplay: 3000, // time for slides changes
         smartSpeed: 3000, // duration of change of 1 slide
-        autoplayHoverPause: true,
+        // autoplayHoverPause: true,
         responsive: {
             0: {
                 items: 1,

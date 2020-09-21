@@ -20,6 +20,9 @@ body{
     right: 0;
     z-index: 99999; 
 }
+a{
+    cursor: pointer;
+}
 .spinner {
     width: 60px;
     height: 60px;
